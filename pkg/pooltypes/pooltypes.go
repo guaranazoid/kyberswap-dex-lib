@@ -138,6 +138,7 @@ import (
 	nadfun "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nad-fun"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nadswap"
 	nativev3 "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/native/v3"
+	nemoprop "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nemo-prop"
 	netstaking "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/net-staking"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nomiswap"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/obric"
@@ -463,6 +464,7 @@ type Types struct {
 	LunarBase                  string
 	FrxUSD                     string
 	Elfomofi                   string
+	NemoProp                   string
 	EtherfiLiquid              string
 	Smoothy                    string
 	Carbon                     string
@@ -715,6 +717,7 @@ var (
 		LunarBase:                  lunarbase.DexType,
 		FrxUSD:                     frxusd.DexType,
 		Elfomofi:                   elfomofi.DexType,
+		NemoProp:                   nemoprop.DexType,
 		EtherfiLiquid:              liquid.DexType,
 		Smoothy:                    smoothy.DexType,
 		Carbon:                     carbon.DexType,

@@ -202,6 +202,7 @@ const (
 	ExchangeNativeV1                    = "native-v1"
 	ExchangeNativeV2                    = "native-v2"
 	ExchangeNativeV3                    = "native-v3"
+	ExchangeNemoProp                    = "nemo-prop"
 	ExchangeNetStaking                  = "net-staking"
 	ExchangeNomiswap                    = "nomiswap"
 	ExchangeObric                       = "obric"
@@ -456,6 +457,7 @@ var PropAMMSourceSet = map[Exchange]struct{}{
 	ExchangeMantaProp:          {},
 	ExchangeTideFiProp:         {},
 	ExchangeThogProp:           {},
+	ExchangeNemoProp:           {},
 }
 
 func IsPropAMMSource[T ~string](exchange T) bool {

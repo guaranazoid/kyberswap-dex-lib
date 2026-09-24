@@ -1,0 +1,178 @@
+[
+  {
+    "type": "function",
+    "name": "QUOTE_DECAY_PER_SECOND",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getAmountIn",
+    "inputs": [
+      {
+        "name": "tokenIn",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "tokenOut",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "amountOut",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "balanceTokenIn",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "balanceTokenOut",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "amountIn",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getAmountOut",
+    "inputs": [
+      {
+        "name": "tokenIn",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "tokenOut",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "amountIn",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "balanceTokenIn",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "balanceTokenOut",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "amountOut",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getMarketState",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "bid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "ask",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "kAsk",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "kBid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "rhoAsk",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "rhoBid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "qLighter",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "qAnchor",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getMarkets_v1",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "base",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "markets",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "lastUpdatedTimestampMs",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]
