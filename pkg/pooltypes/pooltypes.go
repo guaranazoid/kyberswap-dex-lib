@@ -138,6 +138,7 @@ import (
 	nadfun "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nad-fun"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nadswap"
 	nativev3 "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/native/v3"
+	nemoprop "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nemo-prop"
 	netstaking "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/net-staking"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/nomiswap"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/obric"
@@ -455,6 +456,7 @@ type Types struct {
 	Nabla                      string
 	Tessera                    string
 	ThogProp                   string
+	NemoProp                   string
 	TideFiProp                 string
 	UmbraeDamm                 string
 	UmbraeDlmm                 string
@@ -707,6 +709,7 @@ var (
 		Nabla:                      nabla.DexType,
 		Tessera:                    tessera.DexType,
 		ThogProp:                   thogprop.DexType,
+		NemoProp:                   nemoprop.DexType,
 		TideFiProp:                 tidefiprop.DexType,
 		UmbraeDamm:                 umbraedamm.DexType,
 		UmbraeDlmm:                 umbraedlmm.DexType,
